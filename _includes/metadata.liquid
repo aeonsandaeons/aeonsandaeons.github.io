@@ -128,6 +128,14 @@
     {% capture link %}https://twitter.com/{{ site.x_username }}{% endcapture %}
     {% assign sameaslinks = sameaslinks | push: link %}
   {% endif %}
+  {% if site.soundcloud_username %}
+    {% capture link %}https://soundcloud.com/{{ site.soundcloud_username }}{% endcapture %}
+    {% assign sameaslinks = sameaslinks | push: link %}
+  {% endif %}
+  {% if site.bandcamp_username %}
+    {% capture link %}https://{{ site.bandcamp_username }}.bandcamp.com{% endcapture %}
+    {% assign sameaslinks = sameaslinks | push: link %}
+  {% endif %}
   {% if site.mastodon_username %}
     {% capture link %}https://{{ site.mastodon_username  }}{% endcapture %}
     {% assign sameaslinks = sameaslinks | push: link %}

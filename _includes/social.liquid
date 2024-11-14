@@ -49,6 +49,12 @@
 {% if site.x_username %}
   <a href="https://twitter.com/{{ site.x_username }}" title="X"><i class="fa-brands fa-x-twitter"></i></a>
 {% endif %}
+{% if site.soundcloud_username %}
+  <a href="https://soundcloud.com/{{ site.soundcloud_username }}" title="SoundCloud"><i class="fa-brands fa-soundcloud"></i></a>
+{% endif %}
+{% if site.bandcamp_username %}
+  <a href="https://{{ site.bandcamp_username }}.bandcamp.com" title="Bandcamp"><i class="fa-brands fa-bandcamp"></i></a>
+{% endif %}
 {% if site.mastodon_username %}
   <a rel="me" href="https://{{ site.mastodon_username  }}" title="Mastodon"><i class="fa-brands fa-mastodon"></i></a>
 {% endif %}
