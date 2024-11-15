@@ -2,9 +2,9 @@
 layout: page
 title: project 1
 description: with background image
-img: assets/img/12.jpg
+img: assets/img/gallery/R1-07770-0000-v.jpg
 importance: 1
-category: work
+category: 2024
 related_publications: true
 ---
 
