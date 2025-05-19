@@ -280,6 +280,26 @@
             },
           },
         {%- endif -%}
+        {%- if site.soundcloud_username -%}
+          {
+            id: 'socials-soundcloud',
+            title: 'SoundCloud',
+            section: 'Socials',
+            handler: () => {
+              window.open("https://soundcloud.com/{{ site.soundcloud_username }}", "_blank");
+            },
+          },
+        {%- endif -%}
+        {%- if site.bandcamp_username -%}
+          {
+            id: 'socials-bandcamp',
+            title: 'Bandcamp',
+            section: 'Socials',
+            handler: () => {
+              window.open("https://{{ site.bandcamp_username }}.bandcamp.com", "_blank");
+            },
+          },
+        {%- endif -%}
         {%- if site.mastodon_username -%}
           {
             id: 'socials-mastodon',
