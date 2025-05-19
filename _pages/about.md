@@ -7,7 +7,7 @@ permalink: /
 profile:
   align: right
   image: aeon_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
 #    <p>555 your office number</p>
 #    <p>123 your address street</p>
@@ -19,5 +19,3 @@ social: true # includes social icons at the bottom of the page
 ---
 
 My name is aeon this is my website I make music take photos bike and travel and this site is here for me to blab about all that.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.

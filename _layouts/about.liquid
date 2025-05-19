@@ -8,7 +8,9 @@ layout: default
         <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
         {{ site.last_name }}
       {% else %}
-        {{ site.title }}
+        <div class = "title_image_class" style="width: 10px;">
+          <img src='assets/img/aeonsandaeons_drawn.png'/>
+        </div>
       {% endif %}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
