@@ -1,21 +1,9 @@
 ---
 layout: about
-title: about
+title: under construction
 permalink: /
-#subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
-profile:
-  align: right
-  image: aeon_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-#    <p>555 your office number</p>
-#    <p>123 your address street</p>
-#    <p>Your City, State 12345</p>
-
-news: false # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+nav: false
+description: "Site is under construction. Please check back later."
 ---
 
-My name is aeon this is my website I make music take photos bike and travel and this site is here for me to blab about all that.
+This site is currently under construction. Please check back at a later date
